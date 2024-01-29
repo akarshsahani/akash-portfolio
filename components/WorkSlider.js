@@ -64,7 +64,7 @@ const WorkSlider = () => {
         pagination={{
             clickable: true,
         }}
-        modules={[Pagination]}
+        // modules={[Pagination]}
         className='h-[280px] sm:h-[480px]'
     >
         {

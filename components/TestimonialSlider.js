@@ -40,7 +40,7 @@ const TestimonialSlider = () => {
         pagination={{
             clickable: true,
         }}
-        modules={[Navigation, Pagination]}
+        // modules={[Navigation, Pagination]}
         className='h-[400px]'
     >
         {

@@ -2,7 +2,8 @@
 import { motion } from "framer-motion";
 
 //Components
-import ParticlesContainer from '../components/ParticlesContainer';
+// import ParticlesContainer from '../components/ParticlesContainer';
+import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
 
@@ -22,9 +23,11 @@ const Home = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className="h1">
-            Creative ideas <br/> is {' '} 
-            <span className="text-accent">intelligence Reality</span>
+          className="h2 ">
+            {/* Creative ideas <br/> is {' '} 
+            <span className="text-accent">intelligence Reality</span> */}
+            Turning Code into <span className="text-accent"> Creativity,</span> <br/> Intelligence into {' '} 
+            <span className="text-accent"> Reality.</span>
           </motion.h1>
 
           {/* SubTitle */}
@@ -34,7 +37,7 @@ const Home = () => {
           animate='show'
           exit='hidden'
           className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam excepturi error dignissimos harum minus amet nam deleniti debitis consequuntur?
+            Enter a world where code sparks creativity, birthing innovation. I craft intelligent solutions, transforming concepts into tangible realities. Witness the magic of software development, where each line of code tells a story of innovation.
           </motion.p>
 
           {/* btn */}
@@ -58,7 +61,7 @@ const Home = () => {
         <div className="bg-none xl:bg-explosion w-full h-full absolute mix-blend-color-dodge translate-z-0 xl:bg-cover xl:bg-right xl:bg-no-repeat"></div>
 
         {/* Particles */}
-        <ParticlesContainer />
+        {/* <ParticlesContainer /> */}
 
         {/*Avatar Image */}
         <motion.div 

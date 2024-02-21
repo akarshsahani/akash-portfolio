@@ -6,7 +6,14 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaFacebookF,
+  FaInstagram,
+  FaWhatsapp
 } from 'react-icons/fa';
+
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa6";
+
 
 import {
   SiNextdotjs,
@@ -113,14 +120,58 @@ const About = () => {
       animate='show'
       exit='hidden'
       className='hidden xl:flex absolute bottom-0 -left-[250px]'>
-        <AvatarAbout />
+        {/*<AvatarAbout /> */}
       </motion.div>
 
       {/* Inner Section */}
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         {/* Left Section */}
         <div className='flex flex-1 flex-col justify-center'>
-          <motion.h2 
+
+        <div className="m-20 w-[400px] min-h-[200px] border-2 border-solid border-gray-400 rounded-[40px]">
+                
+                <div className="text-center p-8" >
+                    <div className=" flex justify-center">
+                    <img src="https://dev-akashsahani.pantheonsite.io/wp-content/uploads/2023/09/download_image_1694112489005.png" alt="" className="w-[300px] h-[300px] rounded-[20px]"  />
+                    </div>
+                    <div className="relative">
+                        
+                        <h2 className="text-3xl text-white mt-4">Akash Kumar Shani</h2>
+
+                       
+                        <h4 className="text-sm text-[#BCBCBCD7] mt-4">@akashsahani</h4> 
+
+                     
+
+<div className='flex justify-evenly mt-4'>
+    <a href='https://www.linkedin.com/in/akashkumar2001/' target='_blank' className='cursor-pointer text-2xl group  border border-white border-solid p-3 rounded-[30px] transition-colors duration-500 hover:bg-white hover:text-gray-900'>
+        <CiLinkedin className="text-white transition-colors duration-500 group-hover:text-gray-900" />
+    </a>
+
+    <a href='https://github.com/akarshsahani' target='_blank' className='cursor-pointer text-2xl group  border border-white border-solid p-3 rounded-[30px] transition-colors duration-500 hover:bg-white hover:text-gray-900'>
+        <FaGithub className="text-white transition-colors duration-500 group-hover:text-gray-900" />
+    </a>
+
+    <a href='https://www.facebook.com/Akarsh.Sahani/' target='_blank' className='cursor-pointer text-2xl group  border border-white border-solid p-3 rounded-[30px] transition-colors duration-500 hover:bg-white hover:text-gray-900'>
+        <FaFacebookF className="text-white transition-colors duration-500 group-hover:text-gray-900" />
+    </a>
+
+    <a href='https://www.instagram.com/_akash.sahani/' target='_blank' className='cursor-pointer text-2xl group  border border-white border-solid p-3 rounded-[30px] transition-colors duration-500 hover:bg-white hover:text-gray-900'>
+        <FaInstagram className="text-white transition-colors duration-500 group-hover:text-gray-900" />
+    </a>
+
+    <a href='https://wa.me/+919955641980' target='_blank' className='cursor-pointer text-2xl group  border border-white border-solid p-3 rounded-[30px] transition-colors duration-500 hover:bg-white hover:text-gray-900'>
+        <FaWhatsapp className="text-white transition-colors duration-500 group-hover:text-gray-900" />
+    </a>
+</div>
+<div className='mt-5'>
+<button className='font-inter font-semibold border text-base leading-6 rounded-full p-3 w-[250px]  transition-colors duration-500 hover:bg-white hover:text-gray-900'>contact us</button>
+</div>
+                        
+                    </div>
+                </div>
+            </div>
+          {/* <motion.h2 
           variants={fadeIn('right', 0.2)}
           initial='hidden'
           animate='show'
@@ -138,7 +189,7 @@ const About = () => {
             Highly creative strategic media and technology leader, speaker and advisor who has received wide industry recoginition for his impact including being top executives at forties500.
           </motion.p>
 
-          {/* Text Counters */}
+         
           <motion.div
           variants={fadeIn('right', 0.6)}
           initial='hidden'
@@ -146,7 +197,7 @@ const About = () => {
           exit='hidden'
           >
             <div className='flex flex-1 xl:gap-x-6 mb-5'>
-              {/* Experience */}
+             
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'> 
                   <CountUp start={0} end={10} duration={5} /> +
@@ -156,7 +207,7 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Customers */}
+             
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'> 
                   <CountUp start={0} end={350} duration={5} /> +
@@ -166,7 +217,7 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Projects */}
+           
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'> 
                   <CountUp start={0} end={890} duration={5} /> +
@@ -176,7 +227,7 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Awards */}
+            
               <div className='relative flex-1'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'> 
                   <CountUp start={0} end={12} duration={5} /> +
@@ -187,7 +238,7 @@ const About = () => {
               </div>
 
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         {/* Right Section */}
